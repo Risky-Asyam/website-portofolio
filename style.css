@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lilita+One&family=Red+Hat+Display:wght@700&display=swap');
+
+.about{
+    color: white;
+}
+
+.section-color{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 24px;
+    transition: background-color 0.5s;
+}
+
+#section1 {
+    background-color: transparent;
+}
+
+#section2{
+    background-color: #865DFF;
+}
+
+#section3{
+    background-color: #E384FF;
+}
+
+.home{
+    align-items: center;
+    padding: 14.5% 20%;
+    padding-right: 40%;
+    position: relative;
+    font-family: "Red Hat Display", sans-serif;    
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.nama{
+    font-size: 70px;
+    color: black;
+}
+
+.jobdesc{
+    color: #865DFF;
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+
+.vektor1 {
+    position:absolute;
+    margin-right: auto;
+    top: 27%;
+    left: 0%;
+
+}
+.vektor2 {
+    position: absolute;
+    top: 15%;
+    right: 0%;
+
+}
+.background-color{
+    background-image: linear-gradient(45deg,#E384FF, #865DFF);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li,a,button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.logo-bg img{
+    margin-right: 20px;
+}
+.logo-bg{
+    display: flex;
+    align-items: center;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-image: linear-gradient(45deg,#E384FF, #865DFF);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    z-index: 1000;
+}
+
+.nama-logo{
+    cursor: pointer;
+    margin-right: auto;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
+
+.logo {
+
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #0088a9;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
